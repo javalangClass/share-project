@@ -1,4 +1,4 @@
-#include <jni.h>
+#include <stdlib.h>
 #include "EvilMethodClass.h"
 
 JNIEXPORT jstring JNICALL Java_EvilMethodClass_evilMethod(JNIEnv *env, jclass cls, jstring j_str)
